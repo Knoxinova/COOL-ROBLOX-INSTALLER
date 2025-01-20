@@ -62,4 +62,7 @@ echo ╚═════════════════════╝
 start RobloxPlayerInstaller.exe
 timeout 3>nul
 cls
-Enjoy and look at my git hub at https://github.com/Knoxinova
+echo Enjoy and look at my git hub at https://github.com/Knoxinova
+timeout 30>nul
+del RobloxPlayerInstaller.exe
+delRoblox_Installer_But_Cool.bat
