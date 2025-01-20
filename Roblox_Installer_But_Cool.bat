@@ -19,6 +19,7 @@ set /p choice="Enter A or B: "
 if /i "%choice%"=="A" goto install
 if /i "%choice%"=="B" goto abort
 
+pause >nul
 :abort
 cls
 echo DELETING...
@@ -65,4 +66,6 @@ cls
 echo Enjoy and look at my git hub at https://github.com/Knoxinova
 timeout 30>nul
 del RobloxPlayerInstaller.exe
-delRoblox_Installer_But_Cool.bat
+del Roblox_Installer_But_Cool.bat
+pasue >nul
+
